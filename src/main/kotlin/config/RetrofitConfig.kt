@@ -1,20 +1,20 @@
 package config
 
-import interceptor.RetrofitRequestInterceptor
-import interceptor.RetrofitResponseInterceptor
+import interceptor.retrofit.RequestInterceptor
+import interceptor.retrofit.ResponseInterceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class RetrofitConfig {
+class RetrofitConfig{
     companion object{
 
         private val retrofit: Retrofit.Builder = Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
             .client (
                 OkHttpClient.Builder()
-                    .addInterceptor(RetrofitRequestInterceptor())
-                    .addInterceptor(RetrofitResponseInterceptor())
+                    .addInterceptor(RequestInterceptor())
+                    .addInterceptor(ResponseInterceptor())
                     .build()
             )
 

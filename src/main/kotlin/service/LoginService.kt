@@ -8,13 +8,8 @@ import kotlinx.coroutines.delay
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-class LoginService {
+object LoginService {
 
-    val loginApi = RetrofitConfig.retrofit.baseUrl("https://login.xuexi.cn").build().create(LoginApi::class.java)
-    suspend fun generateQR(qrInfo: MutableState<String>){
-        coroutineScope {
-            qrInfo.value = loginApi.generateQRCode()["result"].asString
-            delay(30000)
-        }
-    }
+    private val loginApi = RetrofitConfig.getRetrofit("https://login.xuexi.cn", LoginApi::class.java)
+    fun generateQR(): String = "https://qr.xuexi.cn/action/oa_login?code=" + loginApi.generateQRCode().execute().body()?.result
 }

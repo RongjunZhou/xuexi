@@ -5,14 +5,11 @@ object CookieStore {
     private var cookies = listOf<String>()
 
     fun getCookie(): String {
-        return ""
+        return cookies.joinToString(";")
     }
 
-    fun addCookie(cookie: String) {
-
+    fun addCookie(cookies: List<String>) {
+        this.cookies += cookies
     }
 
-    fun setCookie(cookies: List<String>) {
-        this.cookies = cookies
-    }
 }
