@@ -1,4 +1,6 @@
+
 import org.jetbrains.compose.desktop.application.dsl.TargetFormat
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm")
@@ -14,6 +16,12 @@ repositories {
     google()
 }
 
+tasks.withType<KotlinCompile>().configureEach {
+    kotlinOptions {
+        jvmTarget = "17"
+    }
+}
+
 dependencies {
     // Note, if you develop a library, you should use compose.desktop.common.
     // compose.desktop.currentOs should be used in launcher-sourceSet
@@ -26,7 +34,9 @@ dependencies {
     // https://mvnrepository.com/artifact/com.squareup.retrofit2/converter-gson
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
     // https://mvnrepository.com/artifact/moe.tlaster/precompose
-    implementation("moe.tlaster:precompose:1.3.14")
+    implementation("moe.tlaster:precompose:1.3.15")
+    implementation("org.seleniumhq.selenium:selenium-firefox-driver:4.15.0")
+    implementation("org.seleniumhq.selenium:selenium-java:4.15.0")
 }
 
 compose.desktop {

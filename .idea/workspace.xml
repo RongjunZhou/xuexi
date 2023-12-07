@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfffabb8-950b-461f-b2f3-b319842661dc" name="更改" comment="init">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/entity/QRCodeResp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ui/LoginView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/viewModel/LoginViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/api/LoginApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/api/LoginApi.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/config/RetrofitConfig.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/config/RetrofitConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/interceptor/RetrofitRequestInterceptor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/interceptor/retrofit/RequestInterceptor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/interceptor/RetrofitResponseInterceptor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/interceptor/retrofit/ResponseInterceptor.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/service/LoginService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/service/LoginService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/store/CookieStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/store/CookieStore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/ui/LoginView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ui/LoginView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/QRCodeUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/util/QRCodeUtil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/viewModel/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/viewModel/LoginViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +57,15 @@
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/moe.tlaster/precompose-jvm/1.3.14/5974d360da296d9325c560a85d090912c9c87301/precompose-jvm-1.3.14-sources.jar!/commonMain/moe/tlaster/precompose/ui/ViewModelAdapter.kt" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -83,8 +89,10 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.kotlinCompiler&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -117,7 +125,12 @@
       <updated>1701837187814</updated>
       <workItem from="1701837188826" duration="9632000" />
       <workItem from="1701846846358" duration="2345000" />
-      <workItem from="1701849201562" duration="1427000" />
+      <workItem from="1701849201562" duration="3015000" />
+      <workItem from="1701857705092" duration="1139000" />
+      <workItem from="1701858849840" duration="1205000" />
+      <workItem from="1701860061785" duration="6100000" />
+      <workItem from="1701867552757" duration="1580000" />
+      <workItem from="1701926209706" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -127,15 +140,45 @@
       <option name="project" value="LOCAL" />
       <updated>1701846839406</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <option name="closed" value="true" />
+      <created>1701854711625</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701854711625</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/4.15.0/9858bd221dcb9f36ce4d0ccd5652a93c071e842b/selenium-api-4.15.0-sources.jar!/org/openqa/selenium/html5/SessionStorage.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

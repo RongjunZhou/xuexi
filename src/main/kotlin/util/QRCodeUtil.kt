@@ -16,7 +16,7 @@ object QRCodeUtil {
         val image = BufferedImage(width, height, BufferedImage.TYPE_INT_RGB)
         for (x in 0 until width) {
             for (y in 0 until height) {
-                image.setRGB(x, y, if (bitMatrix[x, y]) 0x00ff0000 else 0xffffffff.toInt())
+                image.setRGB(x, y, if (bitMatrix[x, y]) 0x00000000 else 0xffffffff.toInt())
             }
         }
         return image.toComposeImageBitmap()

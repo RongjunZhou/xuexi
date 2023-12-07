@@ -10,6 +10,7 @@ object CookieStore {
 
     fun addCookie(cookies: List<String>) {
         this.cookies += cookies
+        cookies.forEach { println("Cookie: $it") }
     }
 
 }

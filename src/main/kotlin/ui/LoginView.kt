@@ -4,16 +4,16 @@ import androidx.compose.desktop.ui.tooling.preview.Preview
 import androidx.compose.foundation.Image
 import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
-import service.LoginService
 import util.QRCodeUtil
+import viewModel.LoginViewModel
 
 @Composable
 @Preview
-fun LoginView() {
+fun LoginView(viewModel: LoginViewModel) {
 
     MaterialTheme {
         Image(
-            bitmap = QRCodeUtil.encode(LoginService.generateQR(), 800, 800),
+            bitmap = QRCodeUtil.encode(viewModel.qrInfo, 800, 800),
             contentDescription = "QR Code"
         )
     }
