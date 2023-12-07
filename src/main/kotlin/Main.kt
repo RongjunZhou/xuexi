@@ -19,7 +19,6 @@ fun main() = application {
     ) {
         val loginViewModel = viewModel { LoginViewModel() }
         LoginView(loginViewModel)
-        this.window.isVisible = !loginViewModel.loginState
     }
 
 }

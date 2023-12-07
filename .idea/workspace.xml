@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfffabb8-950b-461f-b2f3-b319842661dc" name="更改" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/api/LoginApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/api/LoginApi.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/service/LoginService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/service/LoginService.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/store/CookieStore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/store/CookieStore.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/ui/LoginView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/ui/LoginView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/QRCodeUtil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/util/QRCodeUtil.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/viewModel/LoginViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/viewModel/LoginViewModel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,6 +127,7 @@
       <workItem from="1701860061785" duration="6100000" />
       <workItem from="1701867552757" duration="1580000" />
       <workItem from="1701926209706" duration="22000" />
+      <workItem from="1701928156126" duration="5381000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
